@@ -1,12 +1,4 @@
-"""Reproducible polynomial-only regression solution for IMT2024085.
 
-Usage:
-    python train_predict.py
-    python train_predict.py --data-dir ./data --output-dir ./outputs
-
-Requirements: numpy, scipy, scikit-learn, matplotlib, joblib.
-All selection and performance estimates use only supplied training targets.
-"""
 from __future__ import annotations
 
 import argparse
